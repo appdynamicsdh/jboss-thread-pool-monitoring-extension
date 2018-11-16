@@ -1,0 +1,18 @@
+<monitor>
+    <name>JBossThreadMonitor</name>
+    <type>managed</type>
+    <description>Monitor JBoss thread-pools</description>
+    <monitor-configuration>
+    </monitor-configuration>
+    <monitor-run-task>
+        <execution-style>continuous</execution-style>
+        <name>Run</name>
+        <type>executable</type>
+        <task-arguments>
+        </task-arguments>
+        <executable-task>
+            <type>file</type>
+            <file>thread-pools.sh</file>
+        </executable-task>
+    </monitor-run-task>
+</monitor>
